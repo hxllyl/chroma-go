@@ -749,14 +749,15 @@ func (c *Collection) QueryWithOptions(ctx context.Context, queryOptions ...types
 	}
 
 	qresults := QueryResults{
-		Documents:                     qr.Documents,
-		Ids:                           qr.Ids,
-		Metadatas:                     qr.Metadatas,
-		Distances:                     qr.Distances,
-		QueryTexts:                    b.QueryTexts,
-		QueryEmbeddings:               b.QueryEmbeddings,
-		QueryTextsGeneratedEmbeddings: embds,
+		Documents:       qr.Documents,
+		Ids:             qr.Ids,
+		Metadatas:       qr.Metadatas,
+		Distances:       qr.Distances,
+		QueryTexts:      b.QueryTexts,
+		QueryEmbeddings: b.QueryEmbeddings,
+		//QueryTextsGeneratedEmbeddings: embds,
 	}
+
 	return &qresults, nil
 }
 func (c *Collection) Count(ctx context.Context) (int32, error) {
