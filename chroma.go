@@ -12,9 +12,9 @@ import (
 	"strings"
 
 	"github.com/Masterminds/semver" //nolint:gci
-	"github.com/amikos-tech/chroma-go/collection"
-	openapiclient "github.com/amikos-tech/chroma-go/swagger"
-	"github.com/amikos-tech/chroma-go/types"
+	"github.com/hxllyl/chroma-go/collection"
+	openapiclient "github.com/hxllyl/chroma-go/swagger"
+	"github.com/hxllyl/chroma-go/types"
 )
 
 type ClientConfiguration struct {

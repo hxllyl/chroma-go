@@ -8,8 +8,8 @@ import (
 	"io"
 	"net/http"
 
-	chttp "github.com/amikos-tech/chroma-go/pkg/commons/http"
-	"github.com/amikos-tech/chroma-go/types"
+	chttp "github.com/hxllyl/chroma-go/pkg/commons/http"
+	"github.com/hxllyl/chroma-go/types"
 )
 
 type EmbeddingType string

@@ -193,7 +193,7 @@ func EnsureLibTokenizersSharedLibrary() error {
 	targetArchive := filepath.Join(libTokenizersCacheDir, "libtokenizers."+cos+"-"+carch+".tar.gz")
 	if _, err := os.Stat(libTokenizersLibPath); os.IsNotExist(err) {
 		// Download the library
-		url := "https://github.com/amikos-tech/tokenizers/releases/download/v" + LibTokenizersVersion + "/libtokenizers." + cos + "-" + carch + ".tar.gz"
+		url := "https://github.com/hxllyl/tokenizers/releases/download/v" + LibTokenizersVersion + "/libtokenizers." + cos + "-" + carch + ".tar.gz"
 
 		fmt.Println("Downloading libtokenizers from GitHub...")
 		// TODO integrity check

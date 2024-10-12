@@ -18,7 +18,7 @@ package rerankings
 import (
 	"context"
 
-	chromago "github.com/amikos-tech/chroma-go"
+	chromago "github.com/hxllyl/chroma-go"
 )
 
 type RankedResult struct {
@@ -53,7 +53,7 @@ package main
 import (
 	"context"
 	"fmt"
-	cohere "github.com/amikos-tech/chroma-go/pkg/rerankings/cohere"
+	cohere "github.com/hxllyl/chroma-go/pkg/rerankings/cohere"
 	"os"
 )
 
@@ -97,7 +97,7 @@ package main
 import (
 	"context"
 	"fmt"
-	jina "github.com/amikos-tech/chroma-go/pkg/rerankings/jina"
+	jina "github.com/hxllyl/chroma-go/pkg/rerankings/jina"
 	"os"
 )
 
@@ -141,7 +141,7 @@ package main
 import (
 	"context"
 	"fmt"
-	hf "github.com/amikos-tech/chroma-go/pkg/rerankings/hf"
+	hf "github.com/hxllyl/chroma-go/pkg/rerankings/hf"
 	"os"
 )
 

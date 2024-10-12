@@ -4,7 +4,7 @@ package cohere
 
 import (
 	"context"
-	ccommons "github.com/amikos-tech/chroma-go/pkg/commons/cohere"
+	ccommons "github.com/hxllyl/chroma-go/pkg/commons/cohere"
 	"os"
 	"testing"
 

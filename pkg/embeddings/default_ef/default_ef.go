@@ -9,8 +9,8 @@ import (
 
 	ort "github.com/yalue/onnxruntime_go"
 
-	tokenizers "github.com/amikos-tech/chroma-go/pkg/tokenizers/libtokenizers"
-	"github.com/amikos-tech/chroma-go/types"
+	tokenizers "github.com/hxllyl/chroma-go/pkg/tokenizers/libtokenizers"
+	"github.com/hxllyl/chroma-go/types"
 )
 
 type Option func(p *DefaultEmbeddingFunction) error

@@ -16,10 +16,10 @@ package main
 import (
 	"context"
 	"fmt"
-	chroma "github.com/amikos-tech/chroma-go"
-	"github.com/amikos-tech/chroma-go/pkg/embeddings/openai"
-	"github.com/amikos-tech/chroma-go/types"
-	"github.com/amikos-tech/chroma-go/where"
+	chroma "github.com/hxllyl/chroma-go"
+	"github.com/hxllyl/chroma-go/pkg/embeddings/openai"
+	"github.com/hxllyl/chroma-go/types"
+	"github.com/hxllyl/chroma-go/where"
 )
 
 func main() {
@@ -70,10 +70,10 @@ package main
 import (
 	"context"
 	"fmt"
-	chroma "github.com/amikos-tech/chroma-go"
-	"github.com/amikos-tech/chroma-go/pkg/embeddings/openai"
-	"github.com/amikos-tech/chroma-go/types"
-	"github.com/amikos-tech/chroma-go/where_document"
+	chroma "github.com/hxllyl/chroma-go"
+	"github.com/hxllyl/chroma-go/pkg/embeddings/openai"
+	"github.com/hxllyl/chroma-go/types"
+	"github.com/hxllyl/chroma-go/where_document"
 )
 
 func main() {

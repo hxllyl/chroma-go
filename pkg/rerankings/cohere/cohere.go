@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"io"
 
-	chromago "github.com/amikos-tech/chroma-go"
-	ccommons "github.com/amikos-tech/chroma-go/pkg/commons/cohere"
-	"github.com/amikos-tech/chroma-go/pkg/rerankings"
+	chromago "github.com/hxllyl/chroma-go"
+	ccommons "github.com/hxllyl/chroma-go/pkg/commons/cohere"
+	"github.com/hxllyl/chroma-go/pkg/rerankings"
 )
 
 type CohereModel = ccommons.CohereModel

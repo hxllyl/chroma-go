@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	chromago "github.com/amikos-tech/chroma-go"
+	chromago "github.com/hxllyl/chroma-go"
 )
 
 type DummyRerankingFunction struct {

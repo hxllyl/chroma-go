@@ -33,7 +33,7 @@ import (
 	"context"
 	"fmt"
 
-	defaultef "github.com/amikos-tech/chroma-go/pkg/embeddings/default_ef"
+	defaultef "github.com/hxllyl/chroma-go/pkg/embeddings/default_ef"
 )
 
 func main() {
@@ -71,7 +71,7 @@ import (
 	"fmt"
 	"os"
 
-	openai "github.com/amikos-tech/chroma-go/pkg/embeddings/openai"
+	openai "github.com/hxllyl/chroma-go/pkg/embeddings/openai"
 )
 
 func main() {
@@ -100,7 +100,7 @@ import (
 	"fmt"
 	"os"
 
-	cohere "github.com/amikos-tech/chroma-go/pkg/embeddings/cohere"
+	cohere "github.com/hxllyl/chroma-go/pkg/embeddings/cohere"
 )
 
 func main() {
@@ -126,7 +126,7 @@ import (
 	"fmt"
 	"os"
 
-	huggingface "github.com/amikos-tech/chroma-go/pkg/embeddings/hf"
+	huggingface "github.com/hxllyl/chroma-go/pkg/embeddings/hf"
 )
 
 func main() {
@@ -155,7 +155,7 @@ import (
 	"context"
 	"fmt"
 
-	huggingface "github.com/amikos-tech/chroma-go/hf"
+	huggingface "github.com/hxllyl/chroma-go/hf"
 )
 
 func main() {
@@ -195,7 +195,7 @@ package main
 import (
 	"context"
 	"fmt"
-	ollama "github.com/amikos-tech/chroma-go/pkg/embeddings/ollama"
+	ollama "github.com/hxllyl/chroma-go/pkg/embeddings/ollama"
 )
 
 func main() {
@@ -232,7 +232,7 @@ package main
 import (
 	"context"
 	"fmt"
-	cf "github.com/amikos-tech/chroma-go/pkg/embeddings/cloudflare"
+	cf "github.com/hxllyl/chroma-go/pkg/embeddings/cloudflare"
 )
 
 func main() {
@@ -269,7 +269,7 @@ package main
 import (
 	"context"
 	"fmt"
-	t "github.com/amikos-tech/chroma-go/pkg/embeddings/together"
+	t "github.com/hxllyl/chroma-go/pkg/embeddings/together"
 )
 
 func main() {
@@ -304,7 +304,7 @@ package main
 import (
 	"context"
 	"fmt"
-	t "github.com/amikos-tech/chroma-go/pkg/embeddings/voyage"
+	t "github.com/hxllyl/chroma-go/pkg/embeddings/voyage"
 )
 
 func main() {
@@ -339,7 +339,7 @@ package main
 import (
 	"context"
 	"fmt"
-	g "github.com/amikos-tech/chroma-go/pkg/embeddings/gemini"
+	g "github.com/hxllyl/chroma-go/pkg/embeddings/gemini"
 )
 
 func main() {
@@ -372,7 +372,7 @@ package main
 import (
 	"context"
 	"fmt"
-	mistral "github.com/amikos-tech/chroma-go/pkg/embeddings/mistral"
+	mistral "github.com/hxllyl/chroma-go/pkg/embeddings/mistral"
 )
 
 func main() {
@@ -405,7 +405,7 @@ package main
 import (
 	"context"
 	"fmt"
-	nomic "github.com/amikos-tech/chroma-go/pkg/embeddings/nomic"
+	nomic "github.com/hxllyl/chroma-go/pkg/embeddings/nomic"
 )
 
 func main() {
@@ -439,7 +439,7 @@ package main
 import (
 	"context"
 	"fmt"
-	jina "github.com/amikos-tech/chroma-go/pkg/embeddings/jina"
+	jina "github.com/hxllyl/chroma-go/pkg/embeddings/jina"
 )
 
 func main() {

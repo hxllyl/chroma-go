@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	chromago "github.com/amikos-tech/chroma-go"
+	chromago "github.com/hxllyl/chroma-go"
 )
 
 type RankedResult struct {

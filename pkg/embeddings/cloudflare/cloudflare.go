@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/amikos-tech/chroma-go/types"
+	"github.com/hxllyl/chroma-go/types"
 )
 
 // Docs:  https://developers.cloudflare.com/workers-ai/ (Cloudflare Workers AI) and https://developers.cloudflare.com/workers-ai/models/embedding/ (Embedding API)

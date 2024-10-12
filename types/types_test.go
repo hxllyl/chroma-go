@@ -11,9 +11,9 @@ import (
 	"github.com/google/uuid"
 	"github.com/oklog/ulid"
 
-	openapi "github.com/amikos-tech/chroma-go/swagger"
-	"github.com/amikos-tech/chroma-go/where"
-	wheredoc "github.com/amikos-tech/chroma-go/where_document"
+	openapi "github.com/hxllyl/chroma-go/swagger"
+	"github.com/hxllyl/chroma-go/where"
+	wheredoc "github.com/hxllyl/chroma-go/where_document"
 )
 
 func TestConsistentHashEmbeddingFunction_EmbedDocuments(t *testing.T) {

@@ -19,7 +19,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/amikos-tech/chroma-go/types"
+	"github.com/hxllyl/chroma-go/types"
 )
 
 func Compare(t *testing.T, actual, expected map[string]interface{}) bool {

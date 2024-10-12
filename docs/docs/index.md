@@ -7,7 +7,7 @@ An experimental Go client for ChromaDB.
 Add the library to your project:
 
 ```bash
-go get github.com/amikos-tech/chroma-go
+go get github.com/hxllyl/chroma-go
 ```
 
 ## Getting Started
@@ -25,9 +25,9 @@ Import the library:
 package main
 
 import (
-	chroma "github.com/amikos-tech/chroma-go"
-	"github.com/amikos-tech/chroma-go/collection"
-	"github.com/amikos-tech/chroma-go/types"
+	chroma "github.com/hxllyl/chroma-go"
+	"github.com/hxllyl/chroma-go/collection"
+	"github.com/hxllyl/chroma-go/types"
 )
 ```
 
@@ -41,7 +41,7 @@ New client:
 package main
 
 import (
-	chroma "github.com/amikos-tech/chroma-go"
+	chroma "github.com/hxllyl/chroma-go"
 	"fmt"
 )
 
@@ -75,9 +75,9 @@ import (
 	"log"
 	"os"
 
-	chroma "github.com/amikos-tech/chroma-go"
-	"github.com/amikos-tech/chroma-go/types"
-	openai "github.com/amikos-tech/chroma-go/pkg/embeddings/openai"
+	chroma "github.com/hxllyl/chroma-go"
+	"github.com/hxllyl/chroma-go/types"
+	openai "github.com/hxllyl/chroma-go/pkg/embeddings/openai"
 )
 
 func main() {
@@ -131,9 +131,9 @@ import (
 	"log"
 	"os"
 
-	chroma "github.com/amikos-tech/chroma-go"
-	"github.com/amikos-tech/chroma-go/pkg/embeddings/openai"
-	"github.com/amikos-tech/chroma-go/types"
+	chroma "github.com/hxllyl/chroma-go"
+	"github.com/hxllyl/chroma-go/pkg/embeddings/openai"
+	"github.com/hxllyl/chroma-go/types"
 )
 
 func main() {
@@ -181,8 +181,8 @@ import (
 	"log"
 	"os"
 
-	chroma "github.com/amikos-tech/chroma-go"
-	"github.com/amikos-tech/chroma-go/pkg/embeddings/openai"
+	chroma "github.com/hxllyl/chroma-go"
+	"github.com/hxllyl/chroma-go/pkg/embeddings/openai"
 )
 
 func main() {
@@ -226,8 +226,8 @@ import (
 	"log"
 	"os"
 
-	chroma "github.com/amikos-tech/chroma-go"
-	"github.com/amikos-tech/chroma-go/pkg/embeddings/openai"
+	chroma "github.com/hxllyl/chroma-go"
+	"github.com/hxllyl/chroma-go/pkg/embeddings/openai"
 )
 
 func main() {

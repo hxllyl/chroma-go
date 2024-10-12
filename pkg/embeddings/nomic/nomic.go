@@ -8,7 +8,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/amikos-tech/chroma-go/types"
+	"github.com/hxllyl/chroma-go/types"
 )
 
 // Docs:  https://docs.nomic.ai/reference/endpoints/nomic-embed-text
