@@ -32,7 +32,7 @@ import (
 	"fmt"
 	"os"
 
-	openai "github.com/amikos-tech/chroma-go/openai"
+	openai "github.com/hxllyl/chroma-go/openai"
 )
 
 func main() {
@@ -61,7 +61,7 @@ import (
 	"fmt"
 	"os"
 
-	cohere "github.com/amikos-tech/chroma-go/cohere"
+	cohere "github.com/hxllyl/chroma-go/cohere"
 )
 
 func main() {
@@ -87,7 +87,7 @@ import (
 	"fmt"
 	"os"
 
-	huggingface "github.com/amikos-tech/chroma-go/hf"
+	huggingface "github.com/hxllyl/chroma-go/hf"
 )
 
 func main() {
@@ -116,7 +116,7 @@ import (
 	"context"
 	"fmt"
 
-	huggingface "github.com/amikos-tech/chroma-go/hf"
+	huggingface "github.com/hxllyl/chroma-go/hf"
 )
 
 func main() {
@@ -156,7 +156,7 @@ package main
 import (
 	"context"
 	"fmt"
-	ollama "github.com/amikos-tech/chroma-go/pkg/embeddings/ollama"
+	ollama "github.com/hxllyl/chroma-go/pkg/embeddings/ollama"
 )
 
 func main() {
@@ -192,7 +192,7 @@ package main
 import (
 	"context"
 	"fmt"
-	cf "github.com/amikos-tech/chroma-go/pkg/embeddings/cloudflare"
+	cf "github.com/hxllyl/chroma-go/pkg/embeddings/cloudflare"
 )
 
 func main() {
@@ -229,7 +229,7 @@ package main
 import (
 	"context"
 	"fmt"
-	t "github.com/amikos-tech/chroma-go/pkg/embeddings/together"
+	t "github.com/hxllyl/chroma-go/pkg/embeddings/together"
 )
 
 func main() {
@@ -264,7 +264,7 @@ package main
 import (
 	"context"
 	"fmt"
-	t "github.com/amikos-tech/chroma-go/pkg/embeddings/voyage"
+	t "github.com/hxllyl/chroma-go/pkg/embeddings/voyage"
 )
 
 func main() {
@@ -299,7 +299,7 @@ package main
 import (
 	"context"
 	"fmt"
-	g "github.com/amikos-tech/chroma-go/pkg/embeddings/gemini"
+	g "github.com/hxllyl/chroma-go/pkg/embeddings/gemini"
 )
 
 func main() {

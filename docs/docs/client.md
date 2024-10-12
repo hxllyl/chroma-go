@@ -27,7 +27,7 @@ import (
     "log"
     "os"
 
-    chroma "github.com/amikos-tech/chroma-go"
+    chroma "github.com/hxllyl/chroma-go"
 )
 
 func main() {

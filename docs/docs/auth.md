@@ -15,7 +15,7 @@ package main
 import (
 	"context"
 	"log"
-	chroma "github.com/amikos-tech/chroma-go"
+	chroma "github.com/hxllyl/chroma-go"
 )
 
 func main() {
@@ -39,8 +39,8 @@ package main
 import (
     "context"
     "log"
-    chroma "github.com/amikos-tech/chroma-go"
-	"github.com/amikos-tech/chroma-go/types"
+    chroma "github.com/hxllyl/chroma-go"
+	"github.com/hxllyl/chroma-go/types"
 )
 
 func main() {
@@ -63,8 +63,8 @@ package main
 import (
     "context"
     "log"
-    chroma "github.com/amikos-tech/chroma-go"
-    "github.com/amikos-tech/chroma-go/types"
+    chroma "github.com/hxllyl/chroma-go"
+    "github.com/hxllyl/chroma-go/types"
 )
 
 func main() {
@@ -87,8 +87,8 @@ package main
 import (
     "context"
     "log"
-    chroma "github.com/amikos-tech/chroma-go"
-    "github.com/amikos-tech/chroma-go/types"
+    chroma "github.com/hxllyl/chroma-go"
+    "github.com/hxllyl/chroma-go/types"
 )
 
 func main() {

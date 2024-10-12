@@ -7,9 +7,9 @@ import (
 	"strings"
 
 	"github.com/Masterminds/semver" //nolint:gci
-	"github.com/amikos-tech/chroma-go/collection"
-	openapiclient "github.com/amikos-tech/chroma-go/swagger"
-	"github.com/amikos-tech/chroma-go/types"
+	"github.com/hxllyl/chroma-go/collection"
+	openapiclient "github.com/hxllyl/chroma-go/swagger"
+	"github.com/hxllyl/chroma-go/types"
 )
 
 type ClientConfiguration struct {
@@ -628,13 +628,16 @@ func (c *Collection) QueryWithOptions(ctx context.Context, queryOptions ...types
 	if len(b.QueryEmbeddings) == 0 && c.EmbeddingFunction == nil {
 		return nil, fmt.Errorf("embedding function is not set. Please configure the embedding function when you get or create the collection, or provide the query embeddings")
 	}
-	embds, embErr := c.EmbeddingFunction.EmbedDocuments(ctx, b.QueryTexts)
-	if embErr != nil {
-		return nil, embErr
-	}
 	var queryEmbeds = make([]openapiclient.EmbeddingsInner, 0)
 	queryEmbeds = append(queryEmbeds, types.ToAPIEmbeddings(b.QueryEmbeddings)...)
-	queryEmbeds = append(queryEmbeds, types.ToAPIEmbeddings(embds)...)
+
+	if len(b.QueryEmbeddings) == 0 {
+		embds, embErr := c.EmbeddingFunction.EmbedDocuments(ctx, b.QueryTexts)
+		if embErr != nil {
+			return nil, embErr
+		}
+		queryEmbeds = append(queryEmbeds, types.ToAPIEmbeddings(embds)...)
+	}
 	qr, _, err := c.ApiClient.DefaultApi.GetNearestNeighbors(ctx, c.ID).QueryEmbedding(openapiclient.QueryEmbedding{
 		Where:           b.Where,
 		WhereDocument:   b.WhereDocument,

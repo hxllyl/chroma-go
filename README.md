@@ -46,14 +46,14 @@ information: [Chroma Go Docs](https://go-client.chromadb.dev/auth/)
 ## Installation
 
 ```bash
-go get github.com/amikos-tech/chroma-go
+go get github.com/hxllyl/chroma-go
 ```
 
 Import:
 
 ```go
 import (
-chroma "github.com/amikos-tech/chroma-go"
+chroma "github.com/hxllyl/chroma-go"
 )
 ```
 
@@ -62,7 +62,7 @@ chroma "github.com/amikos-tech/chroma-go"
 Ensure you have a running instance of Chroma running. We recommend one of the two following options:
 
 - [Official documentation](https://docs.trychroma.com/guides#running-chroma-in-client/server-mode)
-- If you are a fan of Kubernetes, you can use the [Helm chart](https://github.com/amikos-tech/chromadb-chart) (Note: You
+- If you are a fan of Kubernetes, you can use the [Helm chart](https://github.com/hxllyl/chromadb-chart) (Note: You
   will need `Docker`, `minikube` and `kubectl` installed)
 
 **The Setup (Cloud-native):**
@@ -70,7 +70,7 @@ Ensure you have a running instance of Chroma running. We recommend one of the tw
 ```bash
 minikube start --profile chromago
 minikube profile chromago
-helm repo add chroma https://amikos-tech.github.io/chromadb-chart/
+helm repo add chroma https://hxllyl.github.io/chromadb-chart/
 helm repo update
 helm install chroma chroma/chromadb --set chromadb.allowReset=true,chromadb.apiVersion=0.4.5
 ```
@@ -94,10 +94,10 @@ import (
 	"log"
 	"os"
 
-	chroma "github.com/amikos-tech/chroma-go"
-	"github.com/amikos-tech/chroma-go/collection"
-	openai "github.com/amikos-tech/chroma-go/openai"
-	"github.com/amikos-tech/chroma-go/types"
+	chroma "github.com/hxllyl/chroma-go"
+	"github.com/hxllyl/chroma-go/collection"
+	openai "github.com/hxllyl/chroma-go/openai"
+	"github.com/hxllyl/chroma-go/types"
 )
 
 func main() {
@@ -199,5 +199,5 @@ make server
 ## References
 
 - [Official Chroma documentation](https://docs.trychroma.com/)
-- [Chroma Helm chart](https://github.com/amikos-tech/chromadb-chart) for cloud-native deployments
+- [Chroma Helm chart](https://github.com/hxllyl/chromadb-chart) for cloud-native deployments
 - [Chroma Cookbook](https://cookbook.chromadb.dev) for examples and recipes

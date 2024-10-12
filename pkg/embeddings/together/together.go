@@ -8,7 +8,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/amikos-tech/chroma-go/types"
+	"github.com/hxllyl/chroma-go/types"
 )
 
 // Docs:  https://docs.together.ai/docs/embeddings-rest.  Models - https://docs.together.ai/docs/embeddings-models.
